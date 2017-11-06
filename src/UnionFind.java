@@ -60,6 +60,10 @@ public class UnionFind {
         // hard coding the inputs.
         // alternatively, we can also read inputs from files - but not now
         int n = 10;
+        // how to interpret inputs:
+        // pInputs[0] = 4 and qInputs[0] = 3 => 4 is connected to 3
+        // pInputs[1] = 3 and qInputs[1] = 8 => 3 is connected to 8
+        // and so on...
         int[] pInputs = {4, 3, 6, 9, 2, 8, 5, 7, 6, 1};
         int[] qInputs = {3, 8, 5, 4, 1, 9, 0, 2, 1, 0};
 
