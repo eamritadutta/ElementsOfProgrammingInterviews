@@ -1,5 +1,3 @@
-import com.sun.imageio.plugins.tiff.TIFFRenderedImage;
-
 import java.util.HashMap;
 import java.util.Map;
 
