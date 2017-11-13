@@ -5,7 +5,7 @@ public class EditDistance {
         String str2 = "abcdef"; // gives # of cols - same as in example video
         EditDistance editDistance = new EditDistance();
         int result = editDistance.dynamicEditDistance(str1.toCharArray(), str2.toCharArray());
-        System.out.print("\nThe numnber of edits required is " + result + "\n");
+        System.out.print("\nThe number of edits required is " + result + "\n");
     }
 
     public void printActualEdits(int[][] T, char[] str1, char[] str2) {
