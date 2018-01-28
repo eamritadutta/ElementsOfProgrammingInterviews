@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 // there is a recursive version of the same problem at
-// https://github.com/adnanaziz/epicode/blob/master/java/src/main/java/com/epi/ValidIPAddressRecursive.java 
+// https://github.com/adnanaziz/epicode/blob/master/java/src/main/java/com/epi/ValidIPAddressRecursive.java
 public class PruneAndFindAllValidIPAddresses {
     public static void main(String[] args) {
         List<String> res1 = getValidIpAddress("255255255255");

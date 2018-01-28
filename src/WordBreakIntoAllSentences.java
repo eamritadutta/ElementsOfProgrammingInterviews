@@ -26,6 +26,8 @@ public class WordBreakIntoAllSentences {
                     // write a small list tester
                     // to check if we can add a list as follows;
                     // newList.add("ab" + " " + list of many)
+
+                    // number of elements in res == number of possible sentence after this word
                     res.add(s.substring(start, end) + (l.equals("") ? "" : " ") + l);
                 }
             }
