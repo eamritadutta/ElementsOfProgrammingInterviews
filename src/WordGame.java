@@ -30,9 +30,8 @@ public class WordGame {
                     matched = checkRecur(board, i, j, word, 1, visited);
                     if (matched) {
                         return matched;
-                    } else {
-                        visited[i][j] = false;
                     }
+                    visited[i][j] = false;
                 }
             }
         }
@@ -87,9 +86,9 @@ public class WordGame {
                 boolean matched = checkRecur(board, x + dir[0], y + dir[1], word, index + 1, visited);
                 if (matched) {
                     return true;
-                } else {
-                    visited[x + dir[0]][y + dir[1]] = false;
                 }
+
+                visited[x + dir[0]][y + dir[1]] = false;
             }
         }
         return false;
